@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "stunslam",
+  "version": "${version}",
+  "name": "Stun Slam",
+  "description": "Automatischer Stun Slam: Axt gegen den Schild, dann Mace-Smash.",
+  "authors": ["Sharkus"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["de.sharkus.stunslam.StunSlam"] },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
